@@ -20,7 +20,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/palantir/tenablesc-client/tenablesc"
+	"github.com/pawelwiecaszek/tenablesc-client/tenablesc"
 )
 
 func ResourceRepository() *schema.Resource {
@@ -208,8 +208,8 @@ func buildRepoInputs(d *schema.ResourceData) *tenablesc.Repository {
 				Name:        name,
 				Description: description,
 			},
-			DataFormat: "IPv4",  // will need to be updated when we add agent repos.
-			Type:       "Local", // Other options: remote, offline.
+			DataFormat: "universal",
+			Type:       "Local",
 		},
 		RepoFieldsCommon: tenablesc.RepoFieldsCommon{},
 		RepoIPFields:     tenablesc.RepoIPFields{},

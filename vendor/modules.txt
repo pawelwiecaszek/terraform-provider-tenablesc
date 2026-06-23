@@ -260,9 +260,9 @@ github.com/mitchellh/reflectwalk
 # github.com/oklog/run v1.2.0
 ## explicit; go 1.20
 github.com/oklog/run
-# github.com/palantir/tenablesc-client v0.25.1-0.20240827144104-07313e3c48bf
-## explicit; go 1.21
-github.com/palantir/tenablesc-client/tenablesc
+# github.com/pawelwiecaszek/tenablesc-client v0.0.0-00010101000000-000000000000 => ../tenablesc-client
+## explicit; go 1.26.0
+github.com/pawelwiecaszek/tenablesc-client/tenablesc
 # github.com/posener/complete v1.2.3
 ## explicit; go 1.13
 github.com/posener/complete
@@ -533,3 +533,4 @@ gopkg.in/yaml.v3
 # inet.af/netaddr v0.0.0-20230525184311-b8eac61e914a
 ## explicit; go 1.12
 inet.af/netaddr
+# github.com/pawelwiecaszek/tenablesc-client => ../tenablesc-client

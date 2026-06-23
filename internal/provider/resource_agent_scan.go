@@ -21,7 +21,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/palantir/tenablesc-client/tenablesc"
+	"github.com/pawelwiecaszek/tenablesc-client/tenablesc"
 )
 
 // ResourceAgentScan Initialize the Resource Agent Scan
